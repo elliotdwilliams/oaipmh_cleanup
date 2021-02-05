@@ -1,0 +1,215 @@
+[
+  {
+    "op": "core/column-move",
+    "description": "Move column record - header - identifier to position 0",
+    "columnName": "record - header - identifier",
+    "index": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:isPartOf to dcterms:isPartOf",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:isPartOf",
+    "newColumnName": "dcterms:isPartOf"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:rights to dc:rights",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:rights",
+    "newColumnName": "dc:rights"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:identifier to dc:identifier",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:identifier",
+    "newColumnName": "dc:identifier"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:title to dc:title",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:title",
+    "newColumnName": "dc:title"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:type to dc:type",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:type",
+    "newColumnName": "dc:type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:format to dc:format",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:format",
+    "newColumnName": "dc:format"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:extent to dcterms:extent",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:extent",
+    "newColumnName": "dcterms:extent"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:subject to dc:subject",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:subject",
+    "newColumnName": "dc:subject"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:spatial to dcterms:spatial",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:spatial",
+    "newColumnName": "dcterms:spatial"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:language to dc:language",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:language",
+    "newColumnName": "dc:language"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:description to dc:description",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:description",
+    "newColumnName": "dc:description"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:temporal to dcterms:temporal",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:temporal",
+    "newColumnName": "dcterms:temporal"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:created to dcterms:created",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:created",
+    "newColumnName": "dcterms:created"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:creator to dc:creator",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:creator",
+    "newColumnName": "dc:creator"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:publisher to dc:publisher",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:publisher",
+    "newColumnName": "dc:publisher"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:alternative to dcterms:alternative",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:alternative",
+    "newColumnName": "dcterms:alternative"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:abstract to dcterms:abstract",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:abstract",
+    "newColumnName": "dcterms:abstract"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:requires to dcterms:requires",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:requires",
+    "newColumnName": "dcterms:requires"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:contributor to dc:contributor",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:contributor",
+    "newColumnName": "dc:contributor"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:references to dcterms:references",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:references",
+    "newColumnName": "dcterms:references"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:medium to dcterms:medium",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:medium",
+    "newColumnName": "dcterms:medium"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:tableOfContents to dcterms:tableOfContents",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:tableOfContents",
+    "newColumnName": "dcterms:tableOfContents"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:isReferencedBy to dcterms:isReferencedBy",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:isReferencedBy",
+    "newColumnName": "dcterms:isReferencedBy"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:issued to dcterms:issued",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:issued",
+    "newColumnName": "dcterms:issued"
+  },
+    {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:source to dc:source",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:source",
+    "newColumnName": "dc:source"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:accessRights to dcterms:accessRights",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:accessRights",
+    "newColumnName": "dcterms:accessRights"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:bibliographicCitation to dcterms:bibliographicCitation",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:bibliographicCitation",
+    "newColumnName": "dcterms:bibliographicCitation"
+  },
+    {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:provenance to dcterms:provenance",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:provenance",
+    "newColumnName": "dcterms:provenance"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:date to dc:date",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:date",
+    "newColumnName": "dc:date"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - header - status to header - status",
+    "oldColumnName": "record - header - status",
+    "newColumnName": "header - status"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - header - setSpec to header - setSpec",
+    "oldColumnName": "record - header - setSpec",
+    "newColumnName": "header - setSpec"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - header - datestamp to header - datestamp",
+    "oldColumnName": "record - header - datestamp",
+    "newColumnName": "header - datestamp"
+  }
+    {
+    "op": "core/column-removal",
+    "description": "Remove column record",
+    "columnName": "record"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column record - metadata",
+    "columnName": "record - metadata"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column record - metadata - oai_qdc:qualifieddc - xsi:schemaLocation",
+    "columnName": "record - metadata - oai_qdc:qualifieddc - xsi:schemaLocation"
+  }
+]

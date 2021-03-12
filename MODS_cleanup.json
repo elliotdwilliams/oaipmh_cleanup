@@ -7,9 +7,9 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - header - identifier to header - identifier",
+    "description": "Rename column record - header - identifier to header/identifier",
     "oldColumnName": "record - header - identifier",
-    "newColumnName": "header - identifier"
+    "newColumnName": "header/identifier"
   },
   {
     "op": "core/column-removal",
@@ -18,21 +18,21 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:subject - authority to mods:subject - authority",
+    "description": "Rename column record - metadata - mods:mods - mods:subject - authority to subject @authority",
     "oldColumnName": "record - metadata - mods:mods - mods:subject - authority",
-    "newColumnName": "mods:subject - authority"
+    "newColumnName": "subject @authority"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:subject - mods:topic to mods:subject - mods:topic",
+    "description": "Rename column record - metadata - mods:mods - mods:subject - mods:topic to subject/topic",
     "oldColumnName": "record - metadata - mods:mods - mods:subject - mods:topic",
-    "newColumnName": "mods:subject - mods:topic"
+    "newColumnName": "subject/topic"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:subject - mods:geographic to mods:subject - mods:geographic",
+    "description": "Rename column record - metadata - mods:mods - mods:subject - mods:geographic to subject/geographic",
     "oldColumnName": "record - metadata - mods:mods - mods:subject - mods:geographic",
-    "newColumnName": "mods:subject - mods:geographic"
+    "newColumnName": "subject/geographic"
   },
   {
     "op": "core/column-removal",
@@ -41,27 +41,63 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:issuance to mods:originInfo - mods:issuance",
+    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:issuance to originInfo/issuance",
     "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:issuance",
-    "newColumnName": "mods:originInfo - mods:issuance"
+    "newColumnName": "originInfo/issuance"
   },
     {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:dateIssued to mods:originInfo - mods:dateIssued",
+    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:dateIssued to originInfo/mods:dateIssued",
     "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:dateIssued",
-    "newColumnName": "mods:originInfo - mods:dateIssued"
-  }
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:accessCondition to mods:accessCondition",
-    "oldColumnName": "record - metadata - mods:mods - mods:accessCondition",
-    "newColumnName": "mods:accessCondition"
+    "newColumnName": "originInfo/mods:dateIssued"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:accessCondition - type to mods:accessCondition - type",
+    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:place to originInfo/place",
+    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:place",
+    "newColumnName": "originInfo/place"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm to originInfo/place/placeTerm",
+    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm",
+    "newColumnName": "originInfo/place/placeTerm"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm - type to originInfo/place/placeTerm @type",
+    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm - type",
+    "newColumnName": "originInfo/place/placeTerm @type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:publisher to originInfo/publisher",
+    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:publisher",
+    "newColumnName": "originInfo/publisher"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:dateCreated to originInfo/dateCreated",
+    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:dateCreated",
+    "newColumnName": "originInfo/dateCreated"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:accessCondition to accessCondition",
+    "oldColumnName": "record - metadata - mods:mods - mods:accessCondition",
+    "newColumnName": "accessCondition"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:accessCondition - type to accessCondition @type",
     "oldColumnName": "record - metadata - mods:mods - mods:accessCondition - type",
-    "newColumnName": "mods:accessCondition - type"
+    "newColumnName": "accessCondition @type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:accessCondition - displayLabel to accessCondition @displayLabel",
+    "oldColumnName": "record - metadata - mods:mods - mods:accessCondition - displayLabel",
+    "newColumnName": "accessCondition @displayLabel"
   },
   {
     "op": "core/column-removal",
@@ -70,117 +106,144 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:location - displayLabel to mods:location - displayLabel",
+    "description": "Rename column record - metadata - mods:mods - mods:location - displayLabel to location @displayLabel",
     "oldColumnName": "record - metadata - mods:mods - mods:location - displayLabel",
-    "newColumnName": "mods:location - displayLabel"
+    "newColumnName": "location @displayLabel"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:location - mods:url to mods:location - mods:url",
+    "description": "Rename column record - metadata - mods:mods - mods:location - mods:url to location/url",
     "oldColumnName": "record - metadata - mods:mods - mods:location - mods:url",
-    "newColumnName": "mods:location - mods:url"
+    "newColumnName": "location/url"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:extension - flvc:flvc - flvc:owningInstitution to mods:extension - flvc:flvc - flvc:owningInstitution",
+    "description": "Rename column record - metadata - mods:mods - mods:location - mods:physicalLocation to location/physicalLocation",
+    "oldColumnName": "record - metadata - mods:mods - mods:location - mods:physicalLocation",
+    "newColumnName": "location/physicalLocation"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column record - metadata - mods:mods - mods:extension",
+    "columnName": "record - metadata - mods:mods - mods:extension"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column record - metadata - mods:mods - mods:extension - flvc:flvc",
+    "columnName": "record - metadata - mods:mods - mods:extension - flvc:flvc"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:extension - flvc:flvc - flvc:owningInstitution to extension/flvc/owningInstitution",
     "oldColumnName": "record - metadata - mods:mods - mods:extension - flvc:flvc - flvc:owningInstitution",
-    "newColumnName": "mods:extension - flvc:flvc - flvc:owningInstitution"
+    "newColumnName": "extension/flvc/owningInstitution"
+  },
+    {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:extension - flvc:flvc - flvc:submittingInstitution to extension/flvc/submittingInstitution",
+    "oldColumnName": "record - metadata - mods:mods - mods:extension - flvc:flvc - flvc:submittingInstitution",
+    "newColumnName": "extension/flvc/submittingInstitution"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column record - metadata - mods:mods - mods:titleInfo",
+    "columnName": "record - metadata - mods:mods - mods:titleInfo"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:titleInfo - mods:title to mods:titleInfo - mods:title",
+    "description": "Rename column record - metadata - mods:mods - mods:titleInfo - mods:title to titleInfo/title",
     "oldColumnName": "record - metadata - mods:mods - mods:titleInfo - mods:title",
-    "newColumnName": "mods:titleInfo - mods:title"
+    "newColumnName": "titleInfo/title"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:name - type to mods:name - type",
-    "oldColumnName": "record - metadata - mods:mods - mods:name - type",
-    "newColumnName": "mods:name - type"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:name - usage to mods:name - usage",
-    "oldColumnName": "record - metadata - mods:mods - mods:name - usage",
-    "newColumnName": "mods:name - usage"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:name - mods:namePart to mods:name - mods:namePart",
-    "oldColumnName": "record - metadata - mods:mods - mods:name - mods:namePart",
-    "newColumnName": "mods:name - mods:namePart"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:abstract to mods:abstract",
-    "oldColumnName": "record - metadata - mods:mods - mods:abstract",
-    "newColumnName": "mods:abstract"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:abstract - displayLabel to mods:abstract - displayLabel",
-    "oldColumnName": "record - metadata - mods:mods - mods:abstract - displayLabel",
-    "newColumnName": "mods:abstract - displayLabel"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:identifier to mods:identifier",
-    "oldColumnName": "record - metadata - mods:mods - mods:identifier",
-    "newColumnName": "mods:identifier"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:identifier - type to mods:identifier - type",
-    "oldColumnName": "record - metadata - mods:mods - mods:identifier - type",
-    "newColumnName": "mods:identifier - type"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:typeOfResource to mods:typeOfResource",
-    "oldColumnName": "record - metadata - mods:mods - mods:typeOfResource",
-    "newColumnName": "mods:typeOfResource"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:language to mods:language",
-    "oldColumnName": "record - metadata - mods:mods - mods:language",
-    "newColumnName": "mods:language"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:language - mods:languageTerm to mods:language - mods:languageTerm",
-    "oldColumnName": "record - metadata - mods:mods - mods:language - mods:languageTerm",
-    "newColumnName": "mods:language - mods:languageTerm"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:language - mods:languageTerm - type to mods:language - mods:languageTerm - type",
-    "oldColumnName": "record - metadata - mods:mods - mods:language - mods:languageTerm - type",
-    "newColumnName": "mods:language - mods:languageTerm - type"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:language - mods:languageTerm - authority to mods:language - mods:languageTerm - authority",
-    "oldColumnName": "record - metadata - mods:mods - mods:language - mods:languageTerm - authority",
-    "newColumnName": "mods:language - mods:languageTerm - authority"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - header - setSpec to header - setSpec",
-    "oldColumnName": "record - header - setSpec",
-    "newColumnName": "header - setSpec"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - header - datestamp to header - datestamp",
-    "oldColumnName": "record - header - datestamp",
-    "newColumnName": "header - datestamp"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:titleInfo - type to mods:titleInfo - type",
+    "description": "Rename column record - metadata - mods:mods - mods:titleInfo - type to titleInfo @type",
     "oldColumnName": "record - metadata - mods:mods - mods:titleInfo - type",
-    "newColumnName": "mods:titleInfo - type"
+    "newColumnName": "titleInfo @type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:name - type to name @type",
+    "oldColumnName": "record - metadata - mods:mods - mods:name - type",
+    "newColumnName": "name @type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:name - usage to name @usage",
+    "oldColumnName": "record - metadata - mods:mods - mods:name - usage",
+    "newColumnName": "name @usage"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:name - mods:namePart to name/namePart",
+    "oldColumnName": "record - metadata - mods:mods - mods:name - mods:namePart",
+    "newColumnName": "name/namePart"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:abstract to abstract",
+    "oldColumnName": "record - metadata - mods:mods - mods:abstract",
+    "newColumnName": "abstract"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:abstract - displayLabel to abstract @displayLabel",
+    "oldColumnName": "record - metadata - mods:mods - mods:abstract - displayLabel",
+    "newColumnName": "abstract @displayLabel"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:identifier to identifier",
+    "oldColumnName": "record - metadata - mods:mods - mods:identifier",
+    "newColumnName": "identifier"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:identifier - type to identifier @type",
+    "oldColumnName": "record - metadata - mods:mods - mods:identifier - type",
+    "newColumnName": "identifier @type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:typeOfResource to typeOfResource",
+    "oldColumnName": "record - metadata - mods:mods - mods:typeOfResource",
+    "newColumnName": "typeOfResource"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:language to language",
+    "oldColumnName": "record - metadata - mods:mods - mods:language",
+    "newColumnName": "language"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:language - mods:languageTerm to language/languageTerm",
+    "oldColumnName": "record - metadata - mods:mods - mods:language - mods:languageTerm",
+    "newColumnName": "language/languageTerm"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:language - mods:languageTerm - type to language/languageTerm @type",
+    "oldColumnName": "record - metadata - mods:mods - mods:language - mods:languageTerm - type",
+    "newColumnName": "language/languageTerm @type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:language - mods:languageTerm - authority to language/languageTerm @authority",
+    "oldColumnName": "record - metadata - mods:mods - mods:language - mods:languageTerm - authority",
+    "newColumnName": "language/languageTerm @authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - header - setSpec to header/setSpec",
+    "oldColumnName": "record - header - setSpec",
+    "newColumnName": "header/setSpec"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - header - datestamp to header/datestamp",
+    "oldColumnName": "record - header - datestamp",
+    "newColumnName": "header/datestamp"
   },
   {
     "op": "core/column-removal",
@@ -189,63 +252,21 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:physicalDescription - mods:form to mods:physicalDescription - mods:form",
+    "description": "Rename column record - metadata - mods:mods - mods:physicalDescription - mods:form to physicalDescription/form",
     "oldColumnName": "record - metadata - mods:mods - mods:physicalDescription - mods:form",
-    "newColumnName": "mods:physicalDescription - mods:form"
+    "newColumnName": "physicalDescription/form"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:physicalDescription - mods:extent to mods:physicalDescription - mods:extent",
+    "description": "Rename column record - metadata - mods:mods - mods:physicalDescription - mods:extent to physicalDescription/extent",
     "oldColumnName": "record - metadata - mods:mods - mods:physicalDescription - mods:extent",
-    "newColumnName": "mods:physicalDescription - mods:extent"
+    "newColumnName": "physicalDescription/extent"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:place to mods:originInfo - mods:place",
-    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:place",
-    "newColumnName": "mods:originInfo - mods:place"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm to mods:originInfo - mods:place - mods:placeTerm",
-    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm",
-    "newColumnName": "mods:originInfo - mods:place - mods:placeTerm"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm - type to mods:originInfo - mods:place - mods:placeTerm - type",
-    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:place - mods:placeTerm - type",
-    "newColumnName": "mods:originInfo - mods:place - mods:placeTerm - type"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:publisher to mods:originInfo - mods:publisher",
-    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:publisher",
-    "newColumnName": "mods:originInfo - mods:publisher"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:originInfo - mods:dateCreated to mods:originInfo - mods:dateCreated",
-    "oldColumnName": "record - metadata - mods:mods - mods:originInfo - mods:dateCreated",
-    "newColumnName": "mods:originInfo - mods:dateCreated"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:extension - flvc:flvc - flvc:submittingInstitution to mods:extension - flvc:flvc - flvc:submittingInstitution",
-    "oldColumnName": "record - metadata - mods:mods - mods:extension - flvc:flvc - flvc:submittingInstitution",
-    "newColumnName": "mods:extension - flvc:flvc - flvc:submittingInstitution"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:location - mods:physicalLocation to mods:location - mods:physicalLocation",
-    "oldColumnName": "record - metadata - mods:mods - mods:location - mods:physicalLocation",
-    "newColumnName": "mods:location - mods:physicalLocation"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:name - mods:namePart - type to mods:name - mods:namePart - type",
+    "description": "Rename column record - metadata - mods:mods - mods:name - mods:namePart - type to name/namePart/type",
     "oldColumnName": "record - metadata - mods:mods - mods:name - mods:namePart - type",
-    "newColumnName": "mods:name - mods:namePart - type"
+    "newColumnName": "name/namePart/type"
   },
   {
     "op": "core/column-removal",
@@ -254,27 +275,39 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm to mods:name - mods:role - mods:roleTerm",
+    "description": "Rename column record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm to name/role/roleTerm",
     "oldColumnName": "record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm",
-    "newColumnName": "mods:name - mods:role - mods:roleTerm"
+    "newColumnName": "name/role/roleTerm"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm - type to mods:name - mods:role - mods:roleTerm - type",
+    "description": "Rename column record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm - type to name/role/roleTerm @type",
     "oldColumnName": "record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm - type",
-    "newColumnName": "mods:name - mods:role - mods:roleTerm - type"
+    "newColumnName": "name/role/roleTerm @type"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm - authority to mods:name - mods:role - mods:roleTerm - authority",
+    "description": "Rename column record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm - authority to name/role/roleTerm @authority",
     "oldColumnName": "record - metadata - mods:mods - mods:name - mods:role - mods:roleTerm - authority",
-    "newColumnName": "mods:name - mods:role - mods:roleTerm - authority"
+    "newColumnName": "name/role/roleTerm @authority"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:note to mods:note",
+    "description": "Rename column record - metadata - mods:mods - mods:note to note",
     "oldColumnName": "record - metadata - mods:mods - mods:note",
-    "newColumnName": "mods:note"
+    "newColumnName": "note"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:tableOfContents to tableOfContents",
+    "oldColumnName": "record - metadata - mods:mods - mods:tableOfContents",
+    "newColumnName": "tableOfContents"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - mods:mods - mods:recordInfo - mods:recordCreationDate to recordInfo/recordCreationDate",
+    "oldColumnName": "record - metadata - mods:mods - mods:recordInfo - mods:recordCreationDate",
+    "newColumnName": "recordInfo/recordCreationDate"
   },
   {
     "op": "core/column-removal",
@@ -288,29 +321,7 @@
   },
   {
     "op": "core/column-removal",
-    "description": "Remove column record - metadata - mods:mods - mods:titleInfo",
-    "columnName": "record - metadata - mods:mods - mods:titleInfo"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column record - metadata - mods:mods - mods:extension",
-    "columnName": "record - metadata - mods:mods - mods:extension"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column record - metadata - mods:mods - mods:extension - flvc:flvc",
-    "columnName": "record - metadata - mods:mods - mods:extension - flvc:flvc"
-  },
-  {
-    "op": "core/column-removal",
     "description": "Remove column record - metadata - mods:mods - mods:name",
     "columnName": "record - metadata - mods:mods - mods:name"
   },
-
-  {
-    "op": "core/column-rename",
-    "description": "Rename column record - metadata - mods:mods - mods:tableOfContents to mods:tableOfContents",
-    "oldColumnName": "record - metadata - mods:mods - mods:tableOfContents",
-    "newColumnName": "mods:tableOfContents"
-  }
 ]

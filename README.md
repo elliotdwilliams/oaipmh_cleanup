@@ -2,7 +2,7 @@
 
 This repository contains two sets of OpenRefine (OR) operations for preparing metadata exported from an OAI-PMH endpoint.  These commands do a bit of basic clean-up and re-ordering of the columns to make it easier to analyze a metadata set using OR.  
 
-I use these recipes when working with metadata exported from an OAI-PMH endpoint. (I use the metadata-harvest script developed by Cristina Harlow based on work by Mark Phillips, and documented here: https://github.com/dpla/Metadata-Analysis-Workshop/blob/master/Metadata_Harvest.md)  After exporting the metadata, I frequently want to use OpenRefine to analyze it, and found myself performing the same set of operations on each harvested XML file that I opened in OR.  These recipes are a way to speed up that initial process and make it easier to read and work with the metadata in OR.
+I use these recipes when working with metadata exported from an OAI-PMH endpoint. (I use the metadata-harvest script developed by CHristina Harlow based on work by Mark Phillips, and documented here: https://github.com/dpla/Metadata-Analysis-Workshop/blob/master/Metadata_Harvest.md)  After exporting the metadata, I frequently use OpenRefine to analyze it, and found myself performing the same set of operations on each harvested XML file that I opened in OR.  These recipes are a way to speed up that initial process and make it easier to read and work with the metadata in OR.
 
 There are two recipes included in this repository, one for Qualified Dublin Core and one for MODS:
 1. Qualfied Dublin Core - This recipe is much simpler.  It moves the OAI record identifier column to the front of the project (which makes it easier to use OR's record mode); removes a few empty columns; and renames each column with just the dc element.

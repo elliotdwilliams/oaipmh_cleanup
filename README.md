@@ -15,6 +15,6 @@ To perform these operations in OpenRefine:
 4. Copy and paste the JSON text from this repository into the window
 5. Click "Perform Operations"
 
-I've used and tested these recipes with XML metadata exported from CONTENTdm and Islandora systems, but not others.  Some operations, particularly in the MODS recipe, are specific to systems I work with, but if your metadata doesn't include those elements (such as the FLVC extension elements), OR will simply skip over those operations.
+I've used and tested these recipes with XML metadata exported from CONTENTdm and Islandora systems, but not others.  Some operations, particularly in the MODS recipe, are specific to systems/institutions I work with, but if your metadata doesn't include those elements (such as the FLVC extension elements), OR will simply skip over those operations.
 
 Please feel free to reach out or open an issue if you have feedback or suggestions!

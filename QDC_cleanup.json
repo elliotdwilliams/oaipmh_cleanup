@@ -187,12 +187,6 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:relation to dcterms:relation",
-    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:relation",
-    "newColumnName": "dcterms:relation"
-  },
-  {
-    "op": "core/column-rename",
     "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:coverage to dc:coverage",
     "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:coverage",
     "newColumnName": "dc:coverage"
@@ -201,7 +195,7 @@
     "op": "core/column-rename",
     "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:relation to dc:relation",
     "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:relation",
-    "newColumnName": "dc:coverage"
+    "newColumnName": "dc:relation"
   },
   {
     "op": "core/column-rename",

@@ -167,7 +167,7 @@
     "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:bibliographicCitation",
     "newColumnName": "dcterms:bibliographicCitation"
   },
-    {
+  {
     "op": "core/column-rename",
     "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:provenance to dcterms:provenance",
     "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:provenance",
@@ -175,9 +175,39 @@
   },
   {
     "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:isFormatOf to dcterms:isFormatOf",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:isFormatOf",
+    "newColumnName": "dcterms:isFormatOf"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:hasFormat to dcterms:hasFormat",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:hasFormat",
+    "newColumnName": "dcterms:hasFormat"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:relation to dcterms:relation",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:relation",
+    "newColumnName": "dcterms:relation"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:coverage to dc:coverage",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:coverage",
+    "newColumnName": "dc:coverage"
+  },
+  {
+    "op": "core/column-rename",
     "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:date to dc:date",
     "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:date",
     "newColumnName": "dc:date"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:accrualMethod to dcterms:accrualMethod",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:accrualMethod",
+    "newColumnName": "dcterms:accrualMethod"
   },
   {
     "op": "core/column-rename",
@@ -197,7 +227,7 @@
     "oldColumnName": "record - header - datestamp",
     "newColumnName": "header - datestamp"
   }
-    {
+  {
     "op": "core/column-removal",
     "description": "Remove column record",
     "columnName": "record"

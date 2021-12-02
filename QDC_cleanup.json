@@ -199,6 +199,12 @@
   },
   {
     "op": "core/column-rename",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:relation to dc:relation",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:relation",
+    "newColumnName": "dc:coverage"
+  },
+  {
+    "op": "core/column-rename",
     "description": "Rename column record - metadata - oai_qdc:qualifieddc - dc:date to dc:date",
     "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dc:date",
     "newColumnName": "dc:date"

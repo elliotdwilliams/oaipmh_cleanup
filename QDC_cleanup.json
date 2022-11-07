@@ -212,8 +212,8 @@
   {
     "op": "core/column-rename",
     "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:available to dcterms:available",
-    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:accrualMethod",
-    "newColumnName": "dcterms:accrualMethod"
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:available",
+    "newColumnName": "dcterms:available"
   },
   {
     "op": "core/column-rename",

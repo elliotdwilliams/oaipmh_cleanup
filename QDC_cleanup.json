@@ -217,6 +217,12 @@
   },
   {
     "op": "core/column-rename",
+    "oldColumnName": "record - metadata - oai_qdc:qualifieddc - dcterms:isVersionOf",
+    "newColumnName": "dcterms:isVersionOf",
+    "description": "Rename column record - metadata - oai_qdc:qualifieddc - dcterms:isVersionOf to dcterms:isVersionOf"
+  },
+  {
+    "op": "core/column-rename",
     "description": "Rename column record - header - status to header - status",
     "oldColumnName": "record - header - status",
     "newColumnName": "header - status"
@@ -232,7 +238,7 @@
     "description": "Rename column record - header - datestamp to header - datestamp",
     "oldColumnName": "record - header - datestamp",
     "newColumnName": "header - datestamp"
-  }
+  },
   {
     "op": "core/column-removal",
     "description": "Remove column record",
